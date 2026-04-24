@@ -18,7 +18,7 @@ sealed class RpcSource {
         fun binanceSmartChainHttp(): Http {
             return Http(
                     listOf(
-                            URI("https://bnb-mainnet.g.alchemy.com/v2/Hy5Pc7K9_36cmVlzm_yZDUrZqTYD3xMM/"),//https://bsc-dataseed.binance.org/
+                            URI("https://bsc-dataseed.binance.org/"),
                             URI("https://bsc-dataseed1.defibit.io/"),
                             URI("https://bsc-dataseed1.ninicoin.io/"),
                             URI("https://bsc-dataseed2.defibit.io/"),
